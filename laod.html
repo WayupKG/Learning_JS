@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Изучение JavaScript</title>
+</head>
+<body>
+	<input type="button" name="btn" value="Click me" onclick="click_btn(this)"><br>
+
+	<p id='p'></p>
+
+	<p onmouseover="mauseover(this)">На этот текст было наведено <span id="span">0</span> раз</p>
+
+	<br>
+
+	<form action="" method="post" onsubmit="form_login(this)">
+		<label for="login">Логин</label>
+		<input type="text" name="login" id="login" placeholder="Логин">
+		<br>
+		<label for="password">Пароль</label>
+		<input type="password" name="password" id="password" placeholder="Пароль">
+		<br>
+		<label for="repassword">Повторите пароль</label>
+		<input type="password" name="repassword" id="repassword" placeholder="Повторите пароль">
+		<button type="submit">Отправить</button>
+	</form>
+
+	<br>
+
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
